@@ -1,13 +1,74 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Nanum Gothic Coding', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.lang{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.outer {
+  width: 400px;
+  
+  /* border: 2px red solid; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 2rem;
+  background-color: orange;
+ 
+
+  background-size: 50px 50px;
+ 
+ 
+
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.reactLogo img{
+  width: 300px;
+  margin: 1rem;
+
+ 
+}
+
+@media screen and (max-width: 760px) {
+  .outer {
+    width: 100%;
+  }
+}
+  
+@media screen and (max-width: 576px) {
+  .outer {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+  }
+  
+
+  
+}
+
