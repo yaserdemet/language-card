@@ -2,7 +2,7 @@ import cardStyle from "./Card.module.css";
 import { useState } from "react";
 
 const Card = ({ img, name, options }) => {
-  console.log(img);
+
   const [selected, setSelected] = useState(true);
   const [class1 ,setClass1] = useState(true)
 
@@ -19,11 +19,11 @@ const Card = ({ img, name, options }) => {
   return (
    
     // <div className={cardStyle[class1 ? "container" : "state1" ] } onClick={newbee}>
-    <div className={cardStyle["container"  ] } onClick={newbee}>
+    <div className={cardStyle["container"] } onClick={newbee}>
       {selected && (
         <>
           <div className={cardStyle["images"]}>
-            <img src={img} alt="" />
+            <img src={img} alt={name} />
           </div>
           <div className={cardStyle["name"]}>{name}</div>
         </>

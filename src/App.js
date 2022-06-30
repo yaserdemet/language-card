@@ -10,16 +10,18 @@ const App = () => {
     <div>
       <header>
         <div className="reactLogo">
-          <img src={reactLogo} alt="" />
+          <img src={reactLogo} alt="react-logo" />
         </div>
       </header>
       
 
       <div className=" outer">
-       
+       // * map edeceğin datayı bir kapsayıcı eleman ile gönder.
         {languages.map((language) => {
+       // * datayı destructre edip de gönderebiliriz veya direkt gönderebiliriz.
           const { name, img, options } = language;
           return <Card key={name} name={name} img={img} options={options} />;
+        // * datayı gönderirken hata almamak için key değeri gönderiyoruz.
         })}
       </div>
     </div>
