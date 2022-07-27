@@ -1,4 +1,3 @@
-# Getting Started with Create React App
 ![Animation](https://user-images.githubusercontent.com/99739515/176788009-8bc4213e-598f-41fb-8272-67137a425d8f.gif)
 
 ### At the end of the project, i will have covered these topics;
@@ -26,6 +25,15 @@
 
 ✅ use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
+
+### You can run this project in your local by these following steps;
+
+```
+$ git clone https://github.com/yaserdemet/language-card.git
+$ cd projectTourWithFetch/
+$ npm install / yarn
+$ npm start / yarn start
+```
 
 
 ## Available Scripts
