@@ -2,7 +2,7 @@
 
 ### At the end of the project, i will have covered these topics;
 
-🛠 Props and State Logic
+🛠 Props State and Component Logic
 
 🛠 React Hooks 
  
